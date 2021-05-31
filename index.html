@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id = "container">
+        <h1>TIP CALCULATOR</h1>
+        <div id = "contains">
+            <label>Bill Amount</label>
+            <input type="text"  id="amount" placeholder="e.g.RS.1500"><span id ="spans"style = "color:black;border:2px groove whitesmoke ; display: none;  font-size: 18px; font-weight: bolder; padding: 5px; background-color: red;">❌</span>
+            <br>
+
+            <label id="ranges">Tip percent</label>
+            <input  type ="text"  id="tip" placeholder="e.g. 10%"><span id ="spans1"style = "color:black;border:2px groove whitesmoke ; display: none;  font-size: 18px; font-weight: bolder; padding: 5px; background-color: red;">❌</span>
+            <!-- <input  type ="range" list="tickmarks"  min="10" max="100"  id="tip" placeholder="e.g. 10%"><span id ="spans1"style = "color:black;border:2px groove whitesmoke ; display: none;  font-size: 18px; font-weight: bolder; padding: 5px; background-color: red;">❌</span> -->
+<br>
+            <label>Tip Amount</label>
+            <input type="text"  id="total_tip"  disabled>
+<br>
+            <label>Total Bill    </label>
+            <input type="text"  id="total_bill" disabled>
+            <button id="btn">Calculate</button>
+            
+
+
+
+
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
